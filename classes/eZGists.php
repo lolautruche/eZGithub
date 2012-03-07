@@ -32,7 +32,7 @@
             curl_close( $rsc );
 
             // Process datas
-            $datas = json_decode( $result );
+            $datas = json_decode( $result, true );
 
             return $datas;
 
