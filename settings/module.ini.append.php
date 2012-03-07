@@ -2,6 +2,6 @@
 
 [ModuleSettings]
 ExtensionRepositories[]=ezgithub
-ModuleList[]=gists
+ModuleList[]=gist
 
 */ ?>
