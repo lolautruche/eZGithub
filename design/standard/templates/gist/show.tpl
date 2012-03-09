@@ -18,3 +18,5 @@
     <h2>{$file.filename} ({$file.language})</h2>
     <pre>{$file.content}</pre>
 {/foreach}
+
+{undef $content}

@@ -3,5 +3,7 @@
 [ModuleSettings]
 ExtensionRepositories[]=ezgithub
 ModuleList[]=gist
+ModuleList[]=github-project
+ModuleList[]=github-user
 
 */ ?>
