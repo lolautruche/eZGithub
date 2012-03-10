@@ -32,7 +32,7 @@ $tpl->setVariable( 'project', $project );
 $Result['content'] = $tpl->fetch( 'design:github-project/show.tpl' );
 $Result['path'] = array(
 	array( 'text' => 'Github project', 'url' => false ),
-	array( 'text' => 'List', 'url' => false )
+	array( 'text' => 'Show', 'url' => false )
 );
 
 ?>

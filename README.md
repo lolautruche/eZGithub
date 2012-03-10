@@ -1,6 +1,5 @@
 # eZGithub
 
-> **IMPORTANT : This extension is a work in progress**
 
 A companion extension for accessing your datas within eZ Publish.
 
@@ -21,7 +20,17 @@ Configuration is made in `ezgithub.ini`. Please take a look at the original file
 
 ### User informations
 
-> This part is currently not written but is planned.
+You can access user informations by using this URL :
+
+> /github-user/show
+
+or
+
+> /github-user/show/username
+
+or within a template :
+
+    {def $content = fetch(github-user, content, hash(username, $username))}
 
 
 ### Repositories (projects)

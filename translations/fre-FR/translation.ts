@@ -59,4 +59,30 @@
 
 </context>
 
+<context>
+
+    <name>ezgithub/user</name>
+
+    <message>
+        <source>Location :</source>
+        <translation>Emplacement :</translation>
+    </message>
+
+    <message>
+        <source>Public repos :</source>
+        <translation>Dépôts publics :</translation>
+    </message>
+
+    <message>
+        <source>Public gists :</source>
+        <translation>Gists publics :</translation>
+    </message>
+
+    <message>
+        <source>View this user profile directly on Github.</source>
+        <translation>Voir le profil de cet utilisateur directement sur Github.</translation>
+    </message>
+
+</context>
+
 </TS>

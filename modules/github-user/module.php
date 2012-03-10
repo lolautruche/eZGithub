@@ -1,6 +1,6 @@
 <?php
 
-$Module = array( 'name' => 'github-project' );
+$Module = array( 'name' => 'github-user' );
 
 $ViewList = array();
 $FunctionList = array();
@@ -12,14 +12,6 @@ $FunctionList['private'] = array();
 $ViewList['show'] = array(
 
     'script' => 'front/show.php',
-    'functions' => array( 'public' ),
-    'params' => array( 'username', 'project' )
-
-);
-
-$ViewList['list'] = array(
-
-    'script' => 'front/list.php',
     'functions' => array( 'public' ),
     'params' => array( 'username' )
 
