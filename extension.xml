@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>eZGithub</name>
+        <version>1.0</version>
+        <copyright>Copyright (C) 2012 Damien Martin</copyright>
+        <license>GNU General Public License v3.0</license>
+
+        <software>
+            <uses>
+                <name>Github API</name>
+                <copyright>Github Inc.</copyright>
+                <url>http://developer.github.com/v3/</url>
+                <version>v3</version>
+            </uses>
+        </software>
+
+    </metadata>
+
+</software>
